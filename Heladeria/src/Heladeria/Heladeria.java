@@ -4,18 +4,23 @@
  * and open the template in the editor.
  */
 package Heladeria;
-
+import javax.swing.JFrame;
+import vista.FrmPrincipal;
 /**
  *
  * @author alumno
  */
-public class JavaApplication1 {
+public class Heladeria {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        FrmPrincipal formulario = new FrmPrincipal();
+        formulario.setExtendedState(JFrame.MAXIMIZED_BOTH);
+        formulario.setVisible(true);
+        
     }
     
 }
